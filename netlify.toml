@@ -7,7 +7,7 @@
   YARN_VERSION = "1.22.4"
   YARN_FLAGS = "--no-ignore-optional"
 [[plugins]]
-package = "netlify-plugin-fetch-feeds
+  package = "netlify-plugin-fetch-feeds"
 
   [plugins.inputs]
     dataDir = "_data"
