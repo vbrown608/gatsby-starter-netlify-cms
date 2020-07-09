@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "touch /opt/buildhome/foo && ls /opt/buildhome"
+  command = "ls /opt/buildhome/.cache && touch /opt/buildhome/.cache/foo"
   functions = "lambda"
 [build.environment]
   NODE_VERSION = "12"
