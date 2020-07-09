@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "touch /opt/buildhome/foo && ls /opt/buildhome"
   functions = "lambda"
 [build.environment]
   NODE_VERSION = "12"
